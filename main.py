@@ -1,6 +1,6 @@
 import socket
 
-mac = "00:e0:1a:b1:36:dc"
+mac = "xx:xx:xx:xx:xx:xx"
 
 mac = mac.replace(":", "")
 packet = bytes.fromhex("FF" * 6 + mac * 16)
